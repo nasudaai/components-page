@@ -1,3 +1,3 @@
-# vannila JS components page
+# vanilla JS components page
 
 [pages](https://nasudaai.github.io/components-page/)
