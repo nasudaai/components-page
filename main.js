@@ -7,11 +7,11 @@ const abcd = ['a', 'b', 'c', 'd'];
 
 const fragment = new DocumentFragment();
 
-for (const str of abcd) {
+abcd.forEach((str) => {
   const li = document.createElement('li');
   li.textContent = str;
   fragment.appendChild(li);
-}
+})
 
 root.appendChild(ul);
 ul.appendChild(fragment);
