@@ -1,2 +1,3 @@
 const root = document.getElementById('root');
-root.innerText = 'It is root'
+const title = 'It is root';
+root.innerHTML = `<h1>${title}</h1>`;
